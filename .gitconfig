@@ -1,0 +1,11 @@
+[alias]
+	co = checkout
+	st = status
+	ll = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[user]
+	name = Johan Eriksson
+	email = eriksson.jp@gmail.com
+[push]
+	default = current
+[pull]
+	ff = only
